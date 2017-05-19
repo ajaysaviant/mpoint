@@ -14,7 +14,7 @@ rm packer-build-output.log
 
 echo "************* execute packer build"
 ## execute packer build and sendout to packer-build-output file
-packer build ./packer-files/phpapp-packer.json 2>&1 | tee packer-build-output.log
+packer build ./packer-files/java-packer.json 2>&1 | tee packer-build-output.log
 
  cat azuredeploy.parameters.json
 

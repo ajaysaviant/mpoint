@@ -21,12 +21,12 @@
     "capture_name_prefix": "packer",
 
     "os_type": "Linux",
-    "image_publisher": "Canonical",
-    "image_offer": "UbuntuServer",
-    "image_sku": "16.04.0-LTS",
+    "image_publisher": "cognosys",
+    "image_offer": "hardened-centos-7-3",
+    "image_sku": "centos-7-3",
 
 
-    "location": "West US",
+    "location": "South India",
     "vm_size": "Standard_A2"
   }],
   "provisioners": [
@@ -44,28 +44,28 @@
   },
     {
       "type": "file",
-      "source": "../data.php",
-      "destination": "/tmp/data.php"
+      "source": "../D_worker_nurl.war",
+      "destination": "/tmp/D_worker_nurl.war"
     },
     {
       "type": "file",
-      "source": "../drill.html",
-      "destination": "/tmp/drill.html"
+      "source": "../D_worker_request.war",
+      "destination": "/tmp/D_worker_request.war"
     },
     {
       "type": "file",
-      "source": "../index.html",
-      "destination": "/tmp/index.html"
+      "source": "../application.yaml.hk",
+      "destination": "/tmp/application.yaml.hk"
     },    
     {
       "type": "file",
-      "source": "../dist",
-      "destination": "/tmp/dist"
+      "source": "../configMessage.json.hk",
+      "destination": "/tmp/configMessage.json.hk"
     },
 
   {
       "type": "ansible-local",
-      "playbook_file": "./packer-files/phpapp-packer-ansible-provisioner.yml"
+      "playbook_file": "./packer-files/java-packer-ansible-provisioner.yml"
   },
   {
     "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",

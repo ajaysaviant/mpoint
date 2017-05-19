@@ -5,7 +5,7 @@
   - name: Install Packages
     apt: name={{ item }} update_cache=yes state=present
     with_items:
-      - apache2 
+      - tomcat 
       - libapache2-mod-php
       - git
       - curl
@@ -17,23 +17,21 @@
 
   - name: copy D_worker_nurl.war
     sudo: yes
-    copy: src=/D_worker_nurl.war  dest=/usr/share/tomcat/war.html mode=644 
-    # shell: cp /tmp/index.html /var/www/html/index.html
-    # notify: Restart tomcat
-
-  - name: copy data.php
+    copy: src=/D_worker_nurl.war  dest=/usr/share/tomcat/webapps/D_worker_nurl.war mode=644 
+    
+  - name: copy D_worker_request.war
     sudo: yes
-    copy: src=/tmp/data.php  dest=/var/www/html/data.php mode=644 
-    # notify: Restart tomcat
+    copy: src=/tmp/D_worker_request.war  dest=/usr/share/tomcat/webapps/D_worker_request.war mode=644 
+    
 
-  - name: copy drill.html
+  - name: copy application.yaml.hk
     sudo: yes
-    copy: src=/tmp/drill.html  dest=/var/www/html/drill.html mode=644 
-    # notify: Restart tomcat
+    copy: src=/tmp/application.yaml.hk  dest=/home/tomcat/DESU/application.yaml.hk mode=644 
+    
 
-  - name: copy dist directory
+  - name: copy configMessage.json.hk
     sudo: yes
-    copy: src=/tmp/dist/  dest=/var/www/html/dist 
+    copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/webapps/application.yaml.hk 
     notify: Restart tomcat
   
 
