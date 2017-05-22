@@ -11,7 +11,7 @@
 ##export ADMIN_PASSWORD=$8
 
 echo "************* set environment vars"
-export ARM_CLIENT_ID=$1
+export ARM_CLIENT_ID=04287572-5a24-4e77-89b6-27de62925515
 export ARM_CLIENT_SECRET=rBg9eFqD0rHugveAzGfKr06MOTzVIvDgk/Lb++FuMnY=
 export ARM_RESOURCE_GROUP=mpointpoc
 export ARM_STORAGE_ACCOUNT=mpoint
