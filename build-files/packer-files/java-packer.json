@@ -21,9 +21,9 @@
     "capture_name_prefix": "packer",
 
     "os_type": "Linux",
-    "image_publisher": "cognosys",
-    "image_offer": "centos-7-3",
-    "image_sku": "hardened-centos-7-3",
+    "image_publisher": "OpenLogic",
+    "image_offer": "CentOS",
+    "image_sku": "7.3",
 
     "location": "South India",
     "vm_size": "Standard_A2"
