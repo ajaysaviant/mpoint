@@ -3,13 +3,21 @@
 
   tasks:
   - name: Install Packages
-    apt: name={{ item }} update_cache=yes state=present
+    yum: name={{ item }} update_cache=yes state=present
     with_items:
       - tomcat 
-      - libapache2-mod-php
       - git
       - curl
 
+  - file:
+    path: /home/tomcat
+    state: directory
+    mode: 0755
+  
+  - file:
+    path: /home/tomcat/DESU
+    state: directory
+    mode: 0755
 
   # - name: Git Clone Repo
   #   git: repo=https://github.com/********/spinnaker-packer-ansible-php-azure-demo.git dest=/opt/phpapp update=yes force=yes accept_hostkey=yes 
@@ -31,7 +39,7 @@
 
   - name: copy configMessage.json.hk
     sudo: yes
-    copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/webapps/application.yaml.hk 
+    copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/configMessage.json.hk mode=644
     notify: Restart tomcat
   
 
