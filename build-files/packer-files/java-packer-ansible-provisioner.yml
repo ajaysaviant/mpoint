@@ -8,8 +8,8 @@
       - git
       - curl
 
-  - Create directory 
-      file:
+  - name : Create directory 
+    file:
     path: "{{ item }}"
     state: directory
     owner: tomcat
