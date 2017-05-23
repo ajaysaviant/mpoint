@@ -8,10 +8,11 @@
       - tomcat 
       - git
       - curl
- - name: Create tomcat directory
+
+  - name: Create tomcat directory
     file: path=/home/tomcat state=directory owner=tomcat group=tomcat mode=0755
 
- - name: Created DESU directory
+  - name: Created DESU directory
     file:  path=/home/tomcat/DESU state=directory owner=tomcat group=tomcat mode=0755
     
 
