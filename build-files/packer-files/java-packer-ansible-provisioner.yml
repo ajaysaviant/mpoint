@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  sudo: yes
   
   tasks:
   - name: Install Packages
@@ -25,14 +26,17 @@
     copy: src=/tmpD_worker_nurl.war  dest=/usr/share/tomcat/webapps/D_worker_nurl.war mode=644 
     
   - name: copy D_worker_request.war
+    sudo: yes
     copy: src=/tmp/D_worker_request.war  dest=/usr/share/tomcat/webapps/D_worker_request.war mode=644 
     
 
   - name: copy application.yaml.hk
+    sudo: yes
     copy: src=/tmp/application.yaml.hk  dest=/home/tomcat/DESU/application.yaml.hk mode=644 
     
 
   - name: copy configMessage.json.hk
+    sudo: yes
     copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/configMessage.json.hk mode=644
     notify: Restart tomcat
   
