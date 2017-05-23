@@ -1,6 +1,5 @@
 - hosts: all
-  sudo: yes
-
+  
   tasks:
   - name: Install Packages
     yum: name={{ item }} update_cache=yes state=present
@@ -9,15 +8,16 @@
       - git
       - curl
 
-  - file:
-    path: /home/tomcat
+  - Create directory 
+      file:
+    path: "{{ item }}"
     state: directory
-    mode: 0755
-  
-  - file:
-    path: /home/tomcat/DESU
-    state: directory
-    mode: 0755
+    owner: tomcat
+    group: tomcat
+    mode: 0775
+    with_items:
+    - /home/tomcat
+    - /data/tomcat/DESU
 
   # - name: Git Clone Repo
   #   git: repo=https://github.com/********/spinnaker-packer-ansible-php-azure-demo.git dest=/opt/phpapp update=yes force=yes accept_hostkey=yes 
