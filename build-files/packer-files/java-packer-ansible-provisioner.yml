@@ -23,7 +23,7 @@
 
   - name: copy D_worker_nurl.war
     sudo: yes
-    copy: src=/tmpD_worker_nurl.war  dest=/usr/share/tomcat/webapps/D_worker_nurl.war mode=644 
+    copy: src=/tmp/D_worker_nurl.war  dest=/usr/share/tomcat/webapps/D_worker_nurl.war mode=644 
     
   - name: copy D_worker_request.war
     sudo: yes
