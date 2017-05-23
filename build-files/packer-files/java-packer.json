@@ -35,6 +35,7 @@
     "inline": [
       "yum update",
       "yum upgrade -y",
+      "yum install epel-release -y",
       "yum install ansible -y"
 
     ],
