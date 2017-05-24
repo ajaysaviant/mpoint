@@ -37,6 +37,8 @@
       "yum upgrade -y",
       "yum install epel-release -y",
       "yum install ansible -y"
+      "yum install npm -y"
+      "yum install -g azure-cli -y"
 
     ],
     "inline_shebang": "/bin/sh -x",
