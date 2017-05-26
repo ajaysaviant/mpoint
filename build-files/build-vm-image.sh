@@ -12,7 +12,7 @@
 
 echo "************* set environment vars"
 export ARM_CLIENT_ID=04287572-5a24-4e77-89b6-27de62925515
-export ARM_CLIENT_SECRET=rBg9eFqD0rHugveAzGfKr06MOTzVIvDgk/Lb++FuMnY=
+export ARM_CLIENT_SECRET=XDYF5P6v4wTwL7YCcjS2XFtrkFSfJoJ5Th2kqUUU4Uw=
 export ARM_RESOURCE_GROUP=mpointpoc
 export ARM_STORAGE_ACCOUNT=mpoint
 export ARM_SUBSCRIPTION_ID=28d69262-04f8-4974-8f5f-953cc6f18549
