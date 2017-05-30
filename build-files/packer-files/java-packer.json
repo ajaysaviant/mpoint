@@ -25,7 +25,7 @@
     "image_offer": "CentOS",
     "image_sku": "7.3",
 
-    "location": "eastasia",
+    "location": "East Asia",
     "vm_size": "Standard_A2"
   }],
   "provisioners": [
