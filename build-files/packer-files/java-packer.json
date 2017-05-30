@@ -36,7 +36,7 @@
       "yum update",
       "yum upgrade -y",
       "yum install epel-release -y",
-      "yum install ansible -y",
+      "yum install ansible -y"
       
     ],
     "inline_shebang": "/bin/sh -x",
