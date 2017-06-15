@@ -38,9 +38,16 @@
   - name: copy configMessage.json.hk
     sudo: yes
     copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/configMessage.json.hk mode=644
-    notify: Restart tomcat
+    notify: Start tomcat
   
 
   handlers:
+
+  - name: Enable tomcat
+    service: name=tomcat enabled=yes
+
   - name: Restart tomcat
     service: name=tomcat state=restarted
+
+  
+    
