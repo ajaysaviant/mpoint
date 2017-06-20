@@ -54,12 +54,12 @@
     },
     {
       "type": "file",
-      "source": "../application.yaml.hk",
+      "source": "../application.yaml",
       "destination": "/tmp/application.yaml"
     },    
     {
       "type": "file",
-      "source": "../configMessage.json.hk",
+      "source": "../configMessage.json",
       "destination": "/tmp/configMessage.json"
     },
 
