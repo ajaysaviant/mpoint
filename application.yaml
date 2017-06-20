@@ -1,0 +1,7 @@
+mpoint:
+  converter:
+    apiUrl: "http://localhost:8080/D_worker_request/rtb24/"
+    connectionTimeOut: 300
+    readTimeOut : 300
+    userAgent : "mPoint PJ converter v0.1"
+    acceptLanguage: "en-US,en;q=0.5"
