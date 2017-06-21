@@ -32,12 +32,12 @@
 
   - name: copy application.yaml.hk
     sudo: yes
-    copy: src=/tmp/application.yaml.hk  dest=/home/tomcat/DESU/application.yaml.hk owner=tomcat group=tomcat mode=644 
+    copy: src=/tmp/application.yaml  dest=/home/tomcat/DESU/application.yaml owner=tomcat group=tomcat mode=644 
     
 
   - name: copy configMessage.json.hk
     sudo: yes
-    copy: src=/tmp/configMessage.json.hk  dest=/home/tomcat/DESU/configMessage.json.hk owner=tomcat group=tomcat mode=644
+    copy: src=/tmp/configMessage.json  dest=/home/tomcat/DESU/configMessage.json owner=tomcat group=tomcat mode=644
     notify: Restart tomcat
   
 
