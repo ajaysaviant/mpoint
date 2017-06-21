@@ -36,7 +36,7 @@
       "yum update",
       "yum upgrade -y",
       "wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm",
-      "yum install epel-release",
+      "yum install epel-release -y",
       "yum install ansible -y"
       
     ],
