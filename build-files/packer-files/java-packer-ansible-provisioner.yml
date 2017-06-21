@@ -30,12 +30,12 @@
     copy: src=/tmp/D_worker_request.war  dest=/usr/share/tomcat/webapps/D_worker_request.war owner=tomcat group=tomcat mode=644 
     
 
-  - name: copy application.yaml.hk
+  - name: copy application.yaml
     sudo: yes
     copy: src=/tmp/application.yaml  dest=/home/tomcat/DESU/application.yaml owner=tomcat group=tomcat mode=644 
     
 
-  - name: copy configMessage.json.hk
+  - name: copy configMessage.json
     sudo: yes
     copy: src=/tmp/configMessage.json  dest=/home/tomcat/DESU/configMessage.json owner=tomcat group=tomcat mode=644
     notify: Restart tomcat
