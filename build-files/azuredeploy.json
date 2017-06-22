@@ -237,7 +237,7 @@
               "osType": "Linux",
               "name": "[variables('osDiskName')]",
               "caching": "ReadOnly",
-              "createOption": "FromImage",
+              "createOption": "Attach",
               "image": {
               "uri": "[parameters('imageUri')]"
             }
