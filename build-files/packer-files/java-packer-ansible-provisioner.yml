@@ -42,8 +42,8 @@
   
 
   handlers:
-  - name: Restart tomcat
-    service: name=tomcat state=restarted
-
   - name: Enable tomcat
     service: name=tomcat enabled=yes
+
+  - name: Restart tomcat
+    service: name=tomcat state=restarted     
