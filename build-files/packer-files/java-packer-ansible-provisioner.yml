@@ -38,11 +38,11 @@
   - name: copy configMessage.json
     sudo: yes
     copy: src=/tmp/configMessage.json  dest=/home/tomcat/DESU/configMessage.json owner=tomcat group=tomcat mode=644
-    notify: Restart tomcat
+    notify: Start tomcat
   
 
   handlers:
-  - name: Enable tomcat
+  - name: Start tomcat
     service: name=tomcat state=started enabled=yes
 
       
