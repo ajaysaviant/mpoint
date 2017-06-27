@@ -16,11 +16,8 @@
   - name: Created DESU directory
     file:  path=/home/tomcat/DESU state=directory owner=tomcat group=tomcat mode=0755
   
-  - user:
-    name: tomcat
-    home: /home/tomcat
-    group: tomcat
-
+  - user: name: tomcat home=/home/tomcat group=tomcat
+    
   - name: copy D_worker_nurl.war
     sudo: yes
     copy: src=/tmp/D_worker_nurl.war  dest=/usr/share/tomcat/webapps/D_worker_nurl.war owner=tomcat group=tomcat mode=644 
