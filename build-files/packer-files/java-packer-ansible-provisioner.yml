@@ -18,8 +18,7 @@
   
   - user:
     name: tomcat
-    comment: "tomcat"
-    home:/home/tomcat
+    home: /home/tomcat
     group: tomcat
 
   - name: copy D_worker_nurl.war
