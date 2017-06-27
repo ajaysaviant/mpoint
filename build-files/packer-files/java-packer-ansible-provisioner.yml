@@ -15,11 +15,12 @@
 
   - name: Created DESU directory
     file:  path=/home/tomcat/DESU state=directory owner=tomcat group=tomcat mode=0755
-    
-
-  # - name: Git Clone Repo
-  #   git: repo=https://github.com/********/spinnaker-packer-ansible-php-azure-demo.git dest=/opt/phpapp update=yes force=yes accept_hostkey=yes 
-  #   register: git_finished
+  
+  - user:
+    name: tomcat
+    comment: "tomcat"
+    home:/home/tomcat
+    group: tomcat
 
   - name: copy D_worker_nurl.war
     sudo: yes
@@ -33,14 +34,13 @@
   - name: copy application.yaml
     sudo: yes
     copy: src=/tmp/application.yaml  dest=/home/tomcat/DESU/application.yaml owner=tomcat group=tomcat mode=644 
-    
-
+  
   - name: copy configMessage.json
     sudo: yes
     copy: src=/tmp/configMessage.json  dest=/home/tomcat/DESU/configMessage.json owner=tomcat group=tomcat mode=644
     notify: Start tomcat
-  
 
+  
   handlers:
   - name: Start tomcat
     service: name=tomcat state=started enabled=yes
