@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmSku": {
-      "value": "Standard_A2"
+      "value": "Standard_DS3_V2"
     },
     "vmssName": {
       "value": "mpointscaleset051917"
