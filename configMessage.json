@@ -300,7 +300,7 @@
 							"fieldDataType": 5
 						}, {
 							"fieldName": "_nurlServerURL",
-							"fieldValue": "http:\/\/nurl.mpointx.com\/D_worker_nurl\/NurlServlet?",
+							"fieldValue": "https:\/\/nurl.mpointx.com\/D_worker_nurl\/NurlServlet?",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_priceManipulationFactor",
