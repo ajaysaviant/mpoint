@@ -17,7 +17,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_BatchCount",
@@ -33,7 +33,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_adServedBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/AdServedReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/AdServedReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_Timer",
@@ -57,7 +57,7 @@
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_adRequestBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/AdReqReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/AdReqReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_adRequestBucket_BatchCount",
@@ -86,7 +86,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -123,7 +123,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_BatchCount",
@@ -139,7 +139,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_adServedBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/AdServedReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/AdServedReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_Timer",
@@ -163,7 +163,7 @@
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_adRequestBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/AdReqReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/AdReqReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_adRequestBucket_BatchCount",
@@ -201,7 +201,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -251,7 +251,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -300,7 +300,7 @@
 							"fieldDataType": 5
 						}, {
 							"fieldName": "_nurlServerURL",
-							"fieldValue": "https:\/\/nurl.mpointx.com\/D_worker_nurl\/NurlServlet?",
+							"fieldValue": "https:\/\/usa.mpointx.com\/D_worker_nurl\/NurlServlet?",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_priceManipulationFactor",
@@ -313,7 +313,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -346,7 +346,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/TMReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/TMReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -379,7 +379,7 @@
 					"fields": [
 						{
 							"fieldName": "setMaps_rtbMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/rtb",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/rtb",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -391,7 +391,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_dspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/dsp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/dsp",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_key",
@@ -399,7 +399,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_sendurl",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/sendURL",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/sendURL",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Mode",
@@ -407,15 +407,15 @@
 							"fieldDataType": 5
 						}, {
 							"fieldName": "setMaps_dealMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/deal",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/deal",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_currencyMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/cur",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/cur",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_sspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/ssp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/ssp",
 							"fieldDataType": 6
 						}
 					],
@@ -424,7 +424,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/ClkTrackReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/ClkTrackReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -457,7 +457,7 @@
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_adRequestBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/AdReqReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/AdReqReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -469,7 +469,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_clickTrackServlet",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/clktrack",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/clktrack",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_adRequestBucket_BatchCount",
@@ -481,7 +481,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_impTrackServlet",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/imptrack",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/imptrack",
 							"fieldDataType": 6
 						}
 					],
@@ -490,7 +490,7 @@
 					"fields": [
 						{
 							"fieldName": "_transactionMessageBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/ImpTrackReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/ImpTrackReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_transactionMessageBucket_messageType",
@@ -515,11 +515,11 @@
 					"fields": [
 						{
 							"fieldName": "doGet_currencyMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/cur",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/cur",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sendurl",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/sendURL",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/sendURL",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -531,7 +531,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/ssp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/ssp",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sec",
@@ -539,15 +539,15 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_dealMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/deal",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/deal",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_rtbMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/rtb",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/rtb",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_dspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/dsp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/dsp",
 							"fieldDataType": 6
 						}
 					],
@@ -581,7 +581,7 @@
 					"fields": [
 						{
 							"fieldName": "setMaps_rtbMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/rtb",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/rtb",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -593,7 +593,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_dspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/dsp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/dsp",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_key",
@@ -601,7 +601,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_sendurl",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/sendURL",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/sendURL",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Mode",
@@ -609,15 +609,15 @@
 							"fieldDataType": 5
 						}, {
 							"fieldName": "setMaps_dealMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/deal",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/deal",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_currencyMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/cur",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/cur",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "setMaps_sspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/ssp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/ssp",
 							"fieldDataType": 6
 						}
 					],
@@ -634,7 +634,7 @@
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_adRequestBucket_URL",
-							"fieldValue": "http:\/\/rc.mpointx.com\/D_rc\/WinNReceiver",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_rc\/WinNReceiver",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -655,11 +655,11 @@
 					"fields": [
 						{
 							"fieldName": "doGet_currencyMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/cur",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/cur",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sendurl",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/sendURL",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/sendURL",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "_logger_Name",
@@ -671,7 +671,7 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/ssp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/ssp",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_sec",
@@ -679,15 +679,15 @@
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_dealMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/deal",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/deal",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_rtbMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/rtb",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/rtb",
 							"fieldDataType": 6
 						}, {
 							"fieldName": "doGet_dspMap",
-							"fieldValue": "http:\/\/maps.mpointx.com\/D_worker_maps\/dsp",
+							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/dsp",
 							"fieldDataType": 6
 						}
 					],
