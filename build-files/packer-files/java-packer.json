@@ -55,6 +55,16 @@
     },
     {
       "type": "file",
+      "source": "../converter.adinall.nonrestful.war",
+      "destination": "/tmp/converter.adinall.nonrestful.war"
+    },
+    {
+      "type": "file",
+      "source": "../converter.adview.nonrestful.war",
+      "destination": "/tmp/converter.adview.nonrestful.war"
+    },
+    {
+      "type": "file",
       "source": "../application.yaml",
       "destination": "/tmp/application.yaml"
     },    
@@ -63,6 +73,7 @@
       "source": "../configMessage.json",
       "destination": "/tmp/configMessage.json"
     },
+    
 
   {
       "type": "ansible-local",

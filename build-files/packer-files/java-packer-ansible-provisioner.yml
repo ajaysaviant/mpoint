@@ -26,6 +26,14 @@
     sudo: yes
     copy: src=/tmp/D_worker_request.war  dest=/usr/share/tomcat/webapps/D_worker_request.war owner=tomcat group=tomcat mode=644 
     
+  - name: copy converter.adinall.nonrestful.war
+    sudo: yes
+    copy: src=/tmp/converter.adinall.nonrestful.war  dest=/usr/share/tomcat/webapps/converter.adinall.nonrestful.war owner=tomcat group=tomcat mode=644 
+    
+  - name: copy converter.adview.nonrestful.war
+    sudo: yes
+    copy: src=/tmp/converter.adview.nonrestful.war  dest=/usr/share/tomcat/webapps/converter.adview.nonrestful.war owner=tomcat group=tomcat mode=644 
+    
 
   - name: copy application.yaml
     sudo: yes
