@@ -234,7 +234,7 @@
 					"fields": [
 						{
 							"fieldName": "_AUCTION_TIMEOUT_IN_MILLISECONDS",
-							"fieldValue": "300",
+							"fieldValue": "400",
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_logger_Name",
@@ -284,7 +284,7 @@
 					"fields": [
 						{
 							"fieldName": "_AUCTION_TIMEOUT_IN_MILLISECONDS",
-							"fieldValue": "300",
+							"fieldValue": "400",
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_acceptableBidfloorRange",
@@ -416,6 +416,16 @@
 						}, {
 							"fieldName": "setMaps_sspMap",
 							"fieldValue": "http:\/\/usa.mpointx.com\/D_worker_maps\/ssp",
+							"fieldDataType": 6
+						},
+						{
+							"fieldName": "_tc_url",
+							"fieldValue": "http://13.94.34.105:8080/tc?url=",
+							"fieldDataType": 6
+						},
+						{
+							"fieldName": "_tc_dsp",
+							"fieldValue": "pubnative|smartyads_DSP",
 							"fieldDataType": 6
 						}
 					],
