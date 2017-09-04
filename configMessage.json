@@ -420,12 +420,12 @@
 						},
 						{
 							"fieldName": "_tc_url",
-							"fieldValue": "http://13.94.34.105:8080/tc?url=",
+							"fieldValue": " ",
 							"fieldDataType": 6
 						},
 						{
 							"fieldName": "_tc_dsp",
-							"fieldValue": "pubnative|smartyads_DSP",
+							"fieldValue": "123456",
 							"fieldDataType": 6
 						}
 					],
