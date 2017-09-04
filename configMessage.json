@@ -234,7 +234,7 @@
 					"fields": [
 						{
 							"fieldName": "_AUCTION_TIMEOUT_IN_MILLISECONDS",
-							"fieldValue": "120",
+							"fieldValue": "220",
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_logger_Name",
@@ -284,7 +284,7 @@
 					"fields": [
 						{
 							"fieldName": "_AUCTION_TIMEOUT_IN_MILLISECONDS",
-							"fieldValue": "120",
+							"fieldValue": "220",
 							"fieldDataType": 2
 						}, {
 							"fieldName": "_acceptableBidfloorRange",
